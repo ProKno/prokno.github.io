@@ -112,7 +112,7 @@ p {
 /*layout and placement*/
 
 .center {
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -208,7 +208,7 @@ p {
    Modify as content requires.
    ========================================================================== */
 
-/*@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
@@ -217,7 +217,7 @@ p {
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
-*/
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
