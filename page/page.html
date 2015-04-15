@@ -1,0 +1,151 @@
+<!DOCTYPE html5>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  
+  
+<!--Nav-Bar-->
+<header class="clearfix">
+    <div class="container">
+			<div class="header-left">
+          <img class="logo" <img src="ProKnoLogo-01.png" alt="ProKnoLogo-01" width="126" height="39" />			</div>
+			<div class="header-right">
+				<label for="open">
+					<span class="hidden-desktop"></span>
+				</label>
+				<input type="checkbox" name="" id="open">
+				<nav>
+					<a href="#">Programs</a>
+					<a href="#">About</a>
+					<a href="#">Quick-Guides</a>
+					<a href="#">Forums</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+
+
+<!--HEADER IMAGE/SEARCH BAR -->
+<div id="section1">
+  <div class="search-bar">
+    <div class="item item-input-inset">
+      <label class="item-input-wrapper" id="search-input">
+        <i class="icon"> <img src="Search_icon-01.png" alt="Search_icon-01" width="16" height="17" /></i>
+        <input type="text" placeholder= "Search Courses, Tutorials, and more..." ng-model="query" ng-change="search()">
+      </label>
+    </div>
+      <p>What will you <br>learn today?</p>
+     <div class="join-today">
+     	<a href="#">Join Now</a>
+    </div>
+  </div>
+  
+    <ion-content id="content" push-search>
+    <div id="photos" class="clearfix">
+      <div class="photo" ng-repeat="photo in photos.items">
+        <img ng-src="{{ photo.media.m }}">
+      </div>
+    </div>
+  </ion-content>
+
+
+
+  <!--Site-Info -->
+  <div id="section2">
+<div id="pattern" class="pattern">
+  <div class="col-group">
+    <div>
+      <img src="Icon-01.png" alt="Icon-01" width="60" height="36.5" />
+      <h2>Creative Software</h2>
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p1> <br> <a href="#">View Courses</a>
+    </div>
+    <div>
+      <img src="Icon-02.png" alt="Icon-02" width="40.5" height="36.5" />
+      <h2>Web Development</h2>
+      <p1>Sed sit amet molestie diam. Etiam adipiscing dictum eros, vitae feugiat augue convallis sit amet. Nunc quis massa non dolor dictum condimentum.</p1> <br> <a href="#">View Courses</a>
+    </div>
+    <div>
+	  <img src="Icon-03.png" alt="Icon-03" width="34.5" height="36.5" />
+      <h2>Animation</h2>
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p1> <br> 	<a href="#">View Courses</a>
+
+    </div>
+        <div>
+       <img src="Icon-04.png" alt="Icon-04" width="36.5" height="36.5" />
+      <h2>Professional Strategies</h2>
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p1> <br> <a href="#">View Courses</a>
+    </div>
+        <div>
+      <img src="Icon-05.png" alt="Icon-05" width="35" height="36.5" />
+      <h2>Brand Development</h2>
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p1> <br> <a href="#">View Courses</a>
+    </div>
+        <div>
+      <img src="Icon-06.png" alt="Icon-06" width="60" height="36.5" />
+      <h2>Video</h2>
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p1> <br> <a href="#">View Courses</a>
+    </div>
+  </div>
+</div>
+</div>
+
+  
+    <div id="section3">
+    <p>Commited to helping you learn</p>
+    <div id="pattern" class="pattern">
+  <div class="col-group">
+    <div>
+      <img src="Icon-07.png" alt="Icon-07" width="41" height="37.5" />
+      <h2>Learn Fast</h2>
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p1>
+    </div>
+    <div>
+      <img src="Icon-08.png" alt="Icon-08" width="38.8" height="37.5" />
+      <h2>Improve</h2>
+      <p1>Sed sit amet molestie diam. Etiam adipiscing dictum eros, vitae feugiat augue convallis sit amet. Nunc quis massa non dolor dictum condimentum.</p1>
+    </div>
+    <div>
+      <img src="Icon-09.png" alt="Icon-09" width="31.75" height="37.5" />
+      <h2>Stay Ahead</h2>
+      <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis diam, tincidunt nec convallis vitae, dapibus vitae enim. Nam bibendum nisl in risus imperdiet vestibulum.</p1>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+      <div id="section4"> 
+    <p>Popular Courses</p>
+    <div id="pattern" class="pattern">
+  <div class="col-group">
+    <div>
+      <img src="Popular_01-01.png" alt="Popular_01-01" width="328" height="212" />
+    </div>
+    <div>
+      <img src="Popular_02-01.png" alt="Popular_02-02" width="328" height="212" />
+    </div>
+    <div>
+      <img src="Popular_03-01.png" alt="Popular_01-01" width="328" height="212" />
+    </div>
+  </div>
+  </div>
+  </div>
+    
+        <div id="section5">
+    <p>The New Standard of Learning</p>
+     <div class="text"
+    <p3>Find out why thousands of people are using and trust ProKno now more than ever.</p3>
+    <div class="learn-more"
+    <p4>Learn More</p4>
+  </div>
+    </div>
+  
+          <div id="footer">
+    <p></p>
+  </div>
+  
+  </body> 
+
+</html>
+
