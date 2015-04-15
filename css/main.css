@@ -119,12 +119,12 @@ p {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px){
     h1 {
-            font-family: 'Open Sans';
+            font-family: 'Open Sans', sans-serif;
             font-weight: 800;
             }
 
     p {
-        font-family: 'OpenSans';
+        font-family: 'OpenSans', sans-serif;
         font-weight: 400; 
         }
 
